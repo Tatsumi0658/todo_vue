@@ -16,13 +16,13 @@
         <a href="/" class="brand-logo left">Todo Application</a>
         <ul class="right hide-on-med-and-down">
           <li>
-            <a href="#">Top</a>
+            <router-link to="/">Top</router-link>
           </li>
           <li>
-            <a href="#">About</a>
+            <router-link to="/about">About</router-link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <router-link to="/contact">Contact</router-link>
           </li>
         </ul>
         <ul class="right hide-on-large-only">
