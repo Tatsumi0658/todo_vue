@@ -2,13 +2,13 @@
   <div>
     <ul id="dropdown" class="dropdown-content">
       <li>
-        <a href="#">Top</a>
+        <router-link to="/">Top</router-link>
       </li>
       <li>
-        <a href="#">About</a>
+        <router-link to="/about">About</router-link>
       </li>
       <li>
-        <a  href="#">Contact</a>
+        <router-link to="/contact">Contact</router-link>
       </li>
     </ul>
     <nav>
